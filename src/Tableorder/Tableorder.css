@@ -1,0 +1,32 @@
+#table{
+    margin:50px auto;
+    width:30%;
+    padding: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius:5px;
+    
+}
+thead{
+    font-weight: bold;
+   
+
+}
+
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  table th,
+  table td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  table tbody {
+    background-color: #f4f4f4;
+   
+    font-weight: bold;
+  }

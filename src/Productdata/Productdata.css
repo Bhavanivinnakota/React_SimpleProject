@@ -1,0 +1,19 @@
+.product{
+    box-shadow: 0 0 10px black;
+    border-radius: 3px;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    margin: 20px auto;
+    width:30%;
+    background:linear-gradient(pink,skyblue);
+}
+#image{
+    margin-top:50px;
+}
+.product:hover{
+    height:400px;
+    width:50%;
+}

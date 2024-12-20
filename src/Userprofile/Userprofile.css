@@ -1,0 +1,23 @@
+.profilecards{
+    box-shadow:0 0 10px black;
+    margin:30px auto;
+    width:30%;
+    height:200px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    border-radius:5px;
+    background:linear-gradient(black,white)
+}
+.profilecards:hover{
+    height:400px;
+    width:50%;
+}
+#user{
+    color:blue;
+    margin-bottom:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+
+}

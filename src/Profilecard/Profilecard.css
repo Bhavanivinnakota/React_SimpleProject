@@ -1,0 +1,67 @@
+
+.contained {
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 700px;
+    display: flex;
+  }
+  
+  #left {
+    width: 40%;
+    margin-left: 5px;
+    padding: 20px;
+  }
+  dt{
+    font-size:20px;
+  }
+  
+  #right {
+    width: 60%;
+    margin-left: 50px;
+    margin-top:50px;
+  }
+  
+  .contained table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .contained th, .contained td {
+    padding: 10px;
+    text-align: left;
+    border: none; 
+  }
+  
+  
+  .contained #buttons {
+    margin-right: 50px;
+    margin-top: 20px;
+    font-weight:bold;
+    
+  }
+  
+  .contained button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+   border-radius:10px;
+  }
+  
+  
+  .contained button.follow-btn, .contained button.chat-btn  {
+    background-color: #2196F3; 
+    color: white;
+  }
+  
+  .contained button:hover {
+    opacity: 0.8; 
+  }
+  
+  .contained button:active {
+    transform: scale(0.98); 
+  }
+  
